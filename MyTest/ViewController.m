@@ -24,6 +24,8 @@
 - (IBAction)pressedButtonStart:(id)sender {
     User *user1 = [[User alloc]init];
     [user1 createNewUserWihName:@"Василий" andNick:@"VASGEN" andPassword:@"pass1" andUserPhoto:[UIImage imageNamed:@"VASGEN"]];
+    
+    // тут пытаюсь вывести имя по нажатию кнопки, но оно не выводится(((
     NSLog(@"%@",user1.name);
 }
 

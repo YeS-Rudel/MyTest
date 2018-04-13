@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "User.h"
 
 @interface ViewController ()
+@property (strong,nonatomic) User* user1;
 
 @end
 
@@ -19,6 +21,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)pressedButtonStart:(id)sender {
+    User *user1 = [[User alloc]init];
+    [user1 createNewUserWihName:@"Василий" andNick:@"VASGEN" andPassword:@"pass1" andUserPhoto:[UIImage imageNamed:@"VASGEN"]];
+    NSLog(@"%@",user1.name);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

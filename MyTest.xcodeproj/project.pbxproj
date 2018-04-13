@@ -13,6 +13,7 @@
 		99BB874620808A1100FAB92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BB874520808A1100FAB92D /* Assets.xcassets */; };
 		99BB874920808A1100FAB92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BB874720808A1100FAB92D /* LaunchScreen.storyboard */; };
 		99BB874C20808A1100FAB92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BB874B20808A1100FAB92D /* main.m */; };
+		99BB875420808B8700FAB92D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BB875320808B8700FAB92D /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		99BB874820808A1100FAB92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BB874A20808A1100FAB92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99BB874B20808A1100FAB92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99BB875220808B8700FAB92D /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		99BB875320808B8700FAB92D /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				99BB873C20808A1000FAB92D /* AppDelegate.h */,
 				99BB873D20808A1000FAB92D /* AppDelegate.m */,
+				99BB875220808B8700FAB92D /* User.h */,
+				99BB875320808B8700FAB92D /* User.m */,
 				99BB873F20808A1000FAB92D /* ViewController.h */,
 				99BB874020808A1000FAB92D /* ViewController.m */,
 				99BB874220808A1000FAB92D /* Main.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BB875420808B8700FAB92D /* User.m in Sources */,
 				99BB874120808A1000FAB92D /* ViewController.m in Sources */,
 				99BB874C20808A1100FAB92D /* main.m in Sources */,
 				99BB873E20808A1000FAB92D /* AppDelegate.m in Sources */,
